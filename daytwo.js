@@ -141,7 +141,7 @@ let str = 'You cannot end a sentence with because because because is a conjuncti
 console.log(str.substring(30 , 54))
 
 
-//EXERCISES: LEVEL 3
+//EXERCISES.: LEVEL 3
 
 //'Love is the best thing in this world. Some found their love and some are still looking for their love.' Count the number of word love in this sentence.
 let strs= 'Love is the best thing in this world. Some found their love and some are still looking for their love.'
@@ -156,7 +156,7 @@ console.log(bcuz.match(/because/gi).length)
     const sentences = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
     const clean = sentences.replace(/[^a-zA-Z ]/g, "")
     let k = clean.split(' ')
-    
+
 
     console.log(k)
 
